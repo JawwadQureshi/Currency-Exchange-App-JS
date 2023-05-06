@@ -1,12 +1,12 @@
-:root{
+:root {
     --primary-color: #5fbaa7;
 }
 
-*{
-    box-sizing:  border-box;
+* {
+    box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #35383c;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -35,7 +35,7 @@ p {
     padding: 5px 12px;
 }
 
-.currency{
+.currency {
     padding: 40px 0px;
     display: flex;
     align-items: center;
@@ -57,9 +57,9 @@ p {
 }
 
 .swap-rate-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .rate {
@@ -68,7 +68,9 @@ p {
     padding: 0 10px;
 }
 
-select:focus, input:focus, button:focus{
+select:focus,
+input:focus,
+button:focus {
     outline: 0;
 }
 
