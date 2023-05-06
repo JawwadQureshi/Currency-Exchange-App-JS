@@ -33,6 +33,12 @@ swap.addEventListener('click', () => {
   const currencyPlaceHolder = currencyElm_one.value;
   currencyElm_one.value = currencyElm_two.value;
   currencyElm_two.value = currencyPlaceHolder;
+
+  //Uses currency swap format to swap amounts
+  const amtPlaceHolder = amountElm_one.value;
+  amountElm_one.value = amountElm_two.value;
+  amountElm_two.value = amtPlaceHolder;
+
   calculate();
 });
 
