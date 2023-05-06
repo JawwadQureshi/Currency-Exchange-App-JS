@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #f4f4f4;
+    background-color: #35383c;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -70,4 +70,10 @@ p {
 
 select:focus, input:focus, button:focus{
     outline: 0;
+}
+
+.interface {
+    padding: 75px 175px 75px 175px;
+    background-color: #f4f4f4;
+    box-shadow: 7px 10px rgba(0, 0, 0, 0.507);
 }
